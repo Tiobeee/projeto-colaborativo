@@ -24,13 +24,69 @@
             padding: 5px;
         }
 
-    
+        header {
+            padding: 8px 0;
+            background-color: #068688;
+            height: 70px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0 2%;
+            justify-items: center;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            float: inline-start;
+        }
+
+        .logo h2 {
+
+            font-weight: normal;
+            font-size: 35px;
+            display: inline-block;
+            text-align: left;
+            justify-items: left;
+
+        }
+
+        .logo>img {
+            width: 72px;
+            align-items: center;
+            text-align: center;
+            margin-left: -50%;
+
+        }
+
+        .logo a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+
     </style>
 
 </head>
 
+
+
+
 <body>
-    <h1>FilmeFlix</h1>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/movie-camera-illustration-in-minimal-style-png.png">
+                <a href="index.html">
+                    <h2>FilmeFlix</h2>
+                </a>
+            </div>
+            <br><br>
+    </header>
 
     <h2>
         Lista de filmes disponíveis na plataforma
@@ -55,28 +111,28 @@
             <td> Não </td>
             <td><a href="cadastro.html"><button>Editar</button></a></td>
         </tr>
-    
+
         <tr>
             <td>#948573</td>
             <td> It - A Coisa </td>
             <td> Não </td>
             <td><a href="cadastro.html"><button>Editar</button></a></td>
         </tr>
-   
+
         <tr>
             <td>#0293742</td>
             <td> Hereditário </td>
             <td> Não </td>
             <td><a href="cadastro.html"><button>Editar</button></a></td>
         </tr>
-   
+
         <tr>
             <td>#284756</td>
             <td> Hora do Pesadelo </td>
             <td> Sim </td>
             <td><a href="cadastro.html"><button>Editar</button></a></td>
         </tr>
-        
+
         <tr>
             <td>#273649</td>
             <td> Gente Grande </td>
@@ -84,7 +140,7 @@
             <td><a href="cadastro.html"><button>Editar</button></a></td>
         </tr>
 
-        
+
         <tr>
             <td>#182064</td>
             <td> As Branquelas </td>
@@ -92,7 +148,7 @@
             <td><a href="cadastro.html"><button>Editar</button></a></td>
         </tr>
 
-        
+
         <tr>
             <td>#092746</td>
             <td> O Auto da Compadecida </td>
@@ -146,7 +202,7 @@
             <td> Sim </td>
             <td><a href="cadastro.html"><button>Editar</button></a></td>
         </tr>
-        
+
 
         <tr>
             <td>#728375</td>
@@ -168,7 +224,7 @@
         </tr>
         <tr>
             <td>#182695</td>
-            <td> O Cavaleiro das Trevas  </td>
+            <td> O Cavaleiro das Trevas </td>
             <td> Não </td>
             <td><a href="cadastro.html"><button>Editar</button></a></td>
         </tr>
@@ -178,15 +234,15 @@
             <td> Sim </td>
             <td><a href="cadastro.html"><button>Editar</button></a></td>
         </tr>
-        
+
         <tr>
             <td>#092746</td>
             <td> O circulo de fogo </td>
             <td> Sim </td>
             <td><a href="cadastro.html"><button>Editar</button></a></td>
         </tr>
-        
-       
+
+
 
 
         <tr>
@@ -213,7 +269,7 @@
             <td> Não </td>
             <td><a href="cadastro.html"><button>Editar</button></a></td>
         </tr>
-        
+
 
 
     </table>
@@ -222,5 +278,9 @@
     <br>
     <input class="excloi" type="submit" value="Excluir filme">
 </body>
+
+<footer>
+
+</footer>
 
 </html>
