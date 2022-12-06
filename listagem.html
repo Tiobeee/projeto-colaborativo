@@ -5,6 +5,20 @@
     <meta charset="UTF-8">
     <title> FilmeFlix - Listagem de filmes </title>
     <style>
+        .banner {
+            margin-left: 73%;
+            margin-top: -30%;
+
+        }
+
+
+        .banner h2 {
+            font-size: 28px;
+            font-weight: normal;
+            color: rgba(235, 96, 15, 0.47);
+
+        }
+
         table {
             border-collapse: collapse;
             width: 100%;
@@ -25,6 +39,9 @@
         }
 
         header {
+            margin-top: -10px;
+            margin-left: -10px;
+            margin-right: -10px;
             padding: 8px 0;
             background-color: #068688;
             height: 70px;
@@ -45,13 +62,11 @@
         }
 
         .logo h2 {
-
             font-weight: normal;
             font-size: 35px;
             display: inline-block;
             text-align: left;
             justify-items: left;
-
         }
 
         .logo>img {
@@ -59,7 +74,6 @@
             align-items: center;
             text-align: center;
             margin-left: -50%;
-
         }
 
         .logo a {
@@ -67,7 +81,14 @@
             text-decoration: none;
         }
 
-
+        .footer {
+            position:fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(243, 243, 243);
+            text-align: center;
+        }
     </style>
 
 </head>
@@ -273,14 +294,24 @@
 
 
     </table>
+    <br>
+
+    <input class="excloi" type="submit" value="Excluir filme">
 
 
     <br>
-    <input class="excloi" type="submit" value="Excluir filme">
+    <br>
+    <br>
+    <br>
+    
 </body>
 
-<footer>
-
-</footer>
+<div class="footer">
+    <p>
+        <a href=""> Jobs-search </a>
+        <br>
+        <a href=""> Report bug </a>
+    </p>
+</div>
 
 </html>
