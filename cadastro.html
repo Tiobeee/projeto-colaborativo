@@ -7,28 +7,86 @@
 </head>
 
 <body>
-<style>
-.form{
-    width: 300px;
-    height: 80%;
-}
+    <style>
+        .form {
+            width: 300px;
+            height: 80%;
+        }
 
-</style>
+        header {
+            margin-top: -10px;
+            margin-left: -10px;
+            margin-right: -10px;
+            padding: 8px 0;
+            background-color: #068688;
+            height: 70px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0 2%;
+            justify-items: center;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            float: inline-start;
+        }
+
+        .logo h2 {
+            font-weight: normal;
+            font-size: 35px;
+            display: inline-block;
+            text-align: left;
+            justify-items: left;
+        }
+
+        .logo>img {
+            width: 72px;
+            align-items: center;
+            text-align: center;
+            margin-left: -50%;
+        }
+
+        .logo a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(243, 243, 243);
+            text-align: center;
+        }
+
+        .centro{
+            width: 300px;
+            margin-top: 80px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 
 
-<header>
-    <div class="container">
-        <div class="logo">
-            <img src="img/movie-camera-illustration-in-minimal-style-png.png">
-            <a href="index.html">
-                <h2>FilmeFlix</h2>
-            </a>
-        </div>
-        <br><br>
-</header>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/movie-camera-illustration-in-minimal-style-png.png">
+                <a href="index.html">
+                    <h2>FilmeFlix</h2>
+                </a>
+            </div>
+            <br><br>
+    </header>
 
 
-    <h2> CADASTRO DE FILMES </h2>
+    <div class="centro"><h2> CADASTRO DE FILMES </h2>
 
     <div class="form">
         <form>
@@ -72,16 +130,18 @@
                 <input type="checkbox" name="não"> Não
                 <br><br>
 
-
-                <footer>
-
-                    <input type="submit" value="Salvar" name="salvar">
-                    <input type="reset" value="Cancelar" name="cancelar">
-
             </fieldset>
         </form>
-        </footer>
     </div>
+</div>
+    <div class="footer">
+        <br>
+        <input type="submit" value="Salvar" name="salvar">
+        <input type="reset" value="Cancelar" name="cancelar">
+        <p> <a href=""> Jobs-search</a> ﾠ <a href=""> Report bug </a> </p>
+    </div>
+
+
 
 </body>
 
