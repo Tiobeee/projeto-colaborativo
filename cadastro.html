@@ -9,7 +9,7 @@
 <body>
     <style>
         .form {
-            width: 300px;
+            width: 350px;
             height: 80%;
         }
 
@@ -65,11 +65,14 @@
             text-align: center;
         }
 
-        .centro{
-            width: 300px;
-            margin-top: 80px;
-            margin-left: auto;
-            margin-right: auto;
+        .centro {
+            width: 400px;
+            margin-top: 40px;
+            margin-left: 10px;
+        }
+        h1 {
+            margin-left: 10px;
+            color: #068688;
         }
     </style>
 
@@ -84,56 +87,58 @@
             </div>
             <br><br>
     </header>
+    <centro>
+        <h1> CADASTRO DE FILMES </h1>
+    </centro>
+
+    <div class="centro">
+
+        <div class="form">
+            <form>
+                <fieldset>
+
+                    <legend> Informações sobre o filme </legend>
+
+                    <label for="nome"> Nome do filme: </label> <br>
+                    <input type="text" name="nome" id="nome"><br>
+
+                    <label for="elenco"> Elenco principal: </label><br>
+                    <input type="text" name="elenco" id="elenco"><br><br>
+
+                    <label for="produtora"> Produtora de filmes: </label><br>
+                    <input type="text" name="produtora" id="produtora"><br><br>
+
+                    <label for="furacao"> Duração: </label><br>
+                    <input type="text" name="duracao" id="duracao"><br><br>
+
+                    <label for="itens" placeholder="sele"> Faixa etária:</label> <br>
+                    <select name="itens">
+                        <option value="" disabled selected hidden> Selecionar faixa etária</option>
+                        <option value="0"> L </option>
+                        <option value="1"> 10 </option>
+                        <option value="2"> 12 </option>
+                        <option value="3"> 14 </option>
+                        <option value="4"> 16 </option>
+                        <option value="5"> 18 </option>
+                    </select>
+                    <br><br>
 
 
-    <div class="centro"><h2> CADASTRO DE FILMES </h2>
+                    <label for="texto">Sinopse:</label><br>
+                    <textarea name="texto" cols="30" rows="10"></textarea>
 
-    <div class="form">
-        <form>
-            <fieldset>
+                    <br><br>
 
-                <legend> Informações sobre o filme </legend>
+                    <label for=""> Filme destaque: </label><br>
 
-                <label for="nome"> Nome do filme: </label> <br>
-                <input type="text" name="nome" id="nome"><br>
+                    <input type="checkbox" name="sim"> Sim
+                    <input type="checkbox" name="não"> Não
+                    <br><br>
 
-                <label for="elenco"> Elenco principal: </label><br>
-                <input type="text" name="elenco" id="elenco"><br><br>
-
-                <label for="produtora"> Produtora de filmes: </label><br>
-                <input type="text" name="produtora" id="produtora"><br><br>
-
-                <label for="furacao"> Duração: </label><br>
-                <input type="text" name="duracao" id="duracao"><br><br>
-
-                <label for="itens" placeholder="sele"> Faixa etária:</label> <br>
-                <select name="itens">
-                    <option value="" disabled selected hidden> Selecionar faixa etária</option>
-                    <option value="0"> L </option>
-                    <option value="1"> 10 </option>
-                    <option value="2"> 12 </option>
-                    <option value="3"> 14 </option>
-                    <option value="4"> 16 </option>
-                    <option value="5"> 18 </option>
-                </select>
-                <br><br>
-
-
-                <label for="texto">Sinopse:</label><br>
-                <textarea name="texto" cols="30" rows="10"></textarea>
-
-                <br><br>
-
-                <label for=""> Filme destaque: </label><br>
-
-                <input type="checkbox" name="sim"> Sim
-                <input type="checkbox" name="não"> Não
-                <br><br>
-
-            </fieldset>
-        </form>
+                </fieldset>
+            </form>
+        </div>
     </div>
-</div>
     <div class="footer">
         <br>
         <input type="submit" value="Salvar" name="salvar">
