@@ -158,8 +158,10 @@
     }
   
     .form{
-      margin-left: 60%;
-      margin-top: -20%;
+      text-align: center;
+      margin-left: 650px;
+      font-size: 30px;
+      width: 600px;
     }
   
     .lado{
@@ -170,6 +172,10 @@
       font-size: 28px;
       font-weight: normal;
       color:rgba(235, 96, 15, 0.47); 
+    }
+
+    .txt{
+      font-size: 20px;
     }
   
     .k {
@@ -288,6 +294,21 @@ div.box {
   text-align: center;
  
 }
+  .btncadastro{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .escolha{
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+  }
+
+  .sinop{
+    font-size: 20px;
+  }
     </style>
 
 
@@ -358,19 +379,19 @@ div.box {
                     <legend> Informações sobre o filme </legend>
 
                     <label for="nome"> Nome do filme: </label> <br>
-                    <input type="text" name="nome" id="nome"><br>
+                    <input class="txt" type="text" name="nome" id="nome"><br><br>
 
                     <label for="elenco"> Elenco principal: </label><br>
-                    <input type="text" name="elenco" id="elenco"><br><br>
+                    <input class="txt" type="text" name="elenco" id="elenco"><br><br>
 
                     <label for="produtora"> Produtora de filmes: </label><br>
-                    <input type="text" name="produtora" id="produtora"><br><br>
+                    <input class="txt" type="text" name="produtora" id="produtora"><br><br>
 
                     <label for="furacao"> Duração: </label><br>
-                    <input type="text" name="duracao" id="duracao"><br><br>
+                    <input class="txt" type="text" name="duracao" id="duracao"><br><br>
 
                     <label for="itens" placeholder="sele"> Faixa etária:</label> <br>
-                    <select name="itens">
+                    <select name="itens" class="escolha">
                         <option value="" disabled selected hidden> Selecionar faixa etária</option>
                         <option value="0"> L </option>
                         <option value="1"> 10 </option>
@@ -383,7 +404,7 @@ div.box {
 
 
                     <label for="texto">Sinopse:</label><br>
-                    <textarea name="texto" cols="30" rows="10"></textarea>
+                    <textarea class="sinop"name="texto" cols="40" rows="10"></textarea>
 
                     <br><br>
 
@@ -392,13 +413,14 @@ div.box {
                     <input type="checkbox" name="sim"> Sim
                     <input type="checkbox" name="não"> Não
                     <br><br>
-                    <input type="submit" value="Salvar" name="salvar">
-                    <input type="reset" value="Cancelar" name="cancelar">
+                    <input class="btncadastro" type="submit" value="Salvar" name="salvar">
+                    <input class="btncadastro" type="reset" value="Cancelar" name="cancelar">
 
                 </fieldset>
             </form>
         </div>
     </div>
+    <br><br> <br><br> <br><br> <br><br>
     <div class="footer">
         <br><br> <br><br>
 
