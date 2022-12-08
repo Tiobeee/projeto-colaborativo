@@ -10,7 +10,7 @@ header{
 
     }
 
- 
+/**/
 
     header{
 
@@ -160,11 +160,11 @@ nav.menu-desktop{
   
   
   #linha-vertical {
-      height: 600px;
+      height: 800px;
        border-left: 3px solid rgba(150, 144, 144, 0.758);
       
        position: absolute;
-       left: 70%;
+       left: 55%;
   
     }
   
@@ -222,8 +222,8 @@ nav.menu-desktop{
    
    
     .bloco{
-        margin-left: -100%;
-        margin-right: 500px;
+        margin-left: 5%;
+        margin-right: 50px;
         font-size: 25px;
         text-align: justify;
        
@@ -233,15 +233,58 @@ nav.menu-desktop{
         font-size: 50px;
     }
 
-    .ligue{
-        font-size: 25px;
+    .enviar{
+      display: inline-block;
+      outline: none;
+      cursor: pointer;
+      font-weight: 500;
+      border: 1px solid transparent;
+      border-radius: 2px;
+      height: 36px;
+      line-height: 34px;
+      font-size: 14px;
+      color: #ffffff;
+      background-color: #007c89;
+      transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+      padding: 0 18px;
     }
+      .enviar:hover {
+          color: #ffffff;
+          background-color: #006570;
+      }
+
+      .ligue{
+
+      
+      cursor: pointer;
+      outline: 0;
+      display: inline-block;
+      font-weight: 400;
+      line-height: 1.5;
+      text-align: center;
+      background-color: transparent;
+      border: 1px solid transparent;
+      padding: 6px 12px;
+      font-size: 1rem;
+      border-radius: .25rem;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+      color: #007c89;
+      border-color: #007c89;
+    }
+      .ligue:hover {
+          color: #fff;
+          background-color: #007c89;
+          border-color: #007c89;
+      }
+  
+ 
+  
 
     .blocoo{
         
-        margin-top: -100px;
+        margin-top: -200px;
         margin-right: -100%;
-        margin-left: 500px;
+        margin-left: 900px;
         font-size: 25px;
         text-align: justify;
         height: 200px;
@@ -251,8 +294,11 @@ nav.menu-desktop{
     .botoes{
         float: left;
      
-        margin-left: -100%;
-        margin-right: 500px;
+        margin-left: 5%;
+        margin-right: 50px;
         font-size: 25px;
         text-align: justify;
     }
+
+
+    
