@@ -1,0 +1,268 @@
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 2%;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+    .h2{
+    text-size-adjust: 42px;
+    }
+    header{
+    padding: 8px 0;
+    background-color:white;
+    height: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  
+    header{
+      padding: 8px 0;
+      background-color: #068688;
+      height: 70px;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+  
+  
+    
+    .logo{
+    float: inline-start;  
+    }
+    .logo h2{
+    
+    font-weight: normal;
+    font-size: 35px;
+    display: inline-block;
+    text-align: left;
+    justify-items: left ;
+    
+    }
+    .logo img{
+    width: 72px;
+    align-items: center;
+    text-align: center;
+    margin-left: -60%;
+    
+    }
+    .logo a{
+    color:#ffffff;
+    text-decoration: none;
+    }
+  
+   .mt-0.mb-1{
+    font-size: 35px;
+    color:#bd3e4fbe;
+   }
+  
+    .media-body{ 
+      font-size: 25px;
+  
+    }
+  
+    .container h1{
+        font-size: 80px;
+        font-weight: normal;
+        color: white;
+    }
+  
+    
+    body {
+      margin: 0;
+      font-family: Open-sans, sans-serif;
+      background-color: #669d9e;
+      
+    }
+    h1, h2, h3 {
+      font-family: Raleway, Helvetica, sans-serif;
+    }
+    h2 {
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      margin-top: 0;
+    }
+  
+  
+  
+  #linha-vertical {
+      height: 600px;
+       border-left: 3px solid rgba(150, 144, 144, 0.758);
+      
+       position: absolute;
+       left: 70%;
+  
+    }
+  
+    .banner{
+      margin-left: 73%;
+      margin-top: -30%;
+      
+    }
+  
+    
+  .banner h2{
+    font-size: 28px;
+    font-weight: normal;
+    color: white; 
+    
+  }
+  
+  .video{
+    margin-left: 5%;
+  }
+  
+  h1{
+    margin-left: 5%;
+    color: white; 
+  }
+  
+    .b{
+      color: #068688;
+      margin-left: 75%;
+      margin-top: -180%;
+      height: 50px;
+      width: 160px;
+      font-size: 15px;
+    }
+  
+    .form{
+      margin-left: 60%;
+      margin-top: -20%;
+    }
+  
+    .lado{
+      margin-left: 5%;
+    }
+  
+    .ha{
+      font-size: 28px;
+      font-weight: normal;
+      color:rgba(235, 96, 15, 0.47); 
+    }
+  
+    .k {
+      font-size: 140%;
+    }
+  
+    #linha-vertical2 {
+      height: 600px;
+       border-left: 3px solid rgba(150, 144, 144, 0.758);
+      
+       position: absolute;
+       left: 50%;
+  
+    }
+
+
+
+nav.menu-desktop{
+  float: right;
+  margin-right: -450px;
+}
+
+
+
+nav.menu-desktop ul{
+
+  position: relative;
+
+  top: 8px;
+
+}
+
+
+
+nav.menu-desktop li{
+
+  padding: 0 10px;
+
+  font-weight: lighter;
+
+  display: inline-block;
+
+}
+
+nav.menu-desktop a{
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  color: #cf9364;
+
+  font-size: 22px;
+
+  margin-right: 35px;
+
+  text-decoration: none;
+
+}
+
+nav.menu-desktop a:hover{
+
+  text-decoration: underline;
+
+}
+
+.candidatar{
+  float: right;
+}
+
+.au{
+    margin-left: 4%;
+    
+}
+
+.labels2 span{
+
+    color: white;
+
+    background-color: rgba(207, 120, 44, 0.9);
+
+    border-radius: 100px;
+
+    padding: 2px 20px;
+
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 0;
+  color: white;
+}
+
+.image {
+  cursor: pointer;
+  width: 150px;
+  transition: .5s;
+}
+.image:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 480px) {
+  .image {
+    width: 100px;
+  }
+ 
+}
+
+div.box {
+  
+  height: 360px;
+   width: 300px;
+  display: inline-block;
+  padding: 40px;
+  text-align: center;
+}
+
+
+.footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #118385;
+  text-align: center;
+}
